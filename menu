@@ -1,7 +1,33 @@
 #MENU DE SELECCION
-mensaje=print("Bienvenido al Parques grupo 10!!!")
-print(mensaje)
- #Menu#
- opcion= 1
- while opcion !=4:
+mensaje="BIENVENIDO AL PARQUES DEL GRUPO 10!!!"
+print((mensaje))
+
+while True:
+    equipo=int(input("""De que equipo quieres ser:
+                  (1) Rojo
+                  (2) Azul
+                  (3)Verde
+                  (4)Amarillo
+                  """))
+    if equipo == 1:
+        print("Jugaras con las fichas rojas.")
+    elif equipo == 2:
+        print("Jugaras con las fichas amarillas.")
+    elif equipo == 3:
+        print("Jugaras con las fichas verdes")
+    elif equipo== 4:
+        print("Jugaras con las fichas amarillas.")
+    else:
+        print("No haY 5 equpos :c ")
+        
+        break
+
+
+
+        
+
+
+
+        
+
   
