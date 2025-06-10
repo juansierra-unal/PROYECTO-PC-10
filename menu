@@ -1,0 +1,7 @@
+#MENU DE SELECCION
+mensaje=print("Bienvenido al Parques grupo 10!!!")
+print(mensaje)
+ #Menu#
+ opcion= 1
+ while opcion !=4:
+  
